@@ -34,24 +34,24 @@ main {
  justify-content: space-between;
 }
 
-main #about-me {
+#about-me {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
 }
 
-main #about-me div {
+#about-me div {
  flex: 1;
  display: flex;
  flex-direction: column;
  justify-content: center;
 }
 
-main #about-me div span {
+#about-me div span {
   color: #1DEBCC;
 }
 
-main #about-me img {
+#about-me img {
   width: 260x;
   height: 260px;
   border-radius: 50%;
