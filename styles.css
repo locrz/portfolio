@@ -24,3 +24,11 @@ h1, h2, h3, h4, h5, h6, strong {
 button {
   cursor: pointer;
 }
+
+main section #about-me {
+ max-width: 1296px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
