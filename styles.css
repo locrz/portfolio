@@ -33,7 +33,7 @@ main {
  justify-content: space-between;
 }
 
-main section #about-me {
+#about-me {
  max-width: 1296px;
  display: flex;
  flex-direction: column;
