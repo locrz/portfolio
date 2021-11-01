@@ -34,8 +34,25 @@ main {
  justify-content: space-between;
 }
 
-#about-me {
+main section #about-me {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+main section #about-me div {
+ flex: 1;
  display: flex;
  flex-direction: column;
  justify-content: center;
+}
+
+main section #about-me div span {
+  color: #1DEBCC;
+}
+
+main section #about-me img {
+  width: 260x;
+  height: 260px;
+  border-radius: 50%;
 }
